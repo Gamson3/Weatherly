@@ -10,7 +10,7 @@
 - **Neumorphic UI**: Features a sleek and modern design with soft shadows and rounded edges.
 
 ## Demo
-![Weatherly Screenshot](./assets/illustration-WeatherApp.png)
+![Weatherly Screenshot](./assets/demo-WeatherApp.png)
 
 ## Getting Started
 
