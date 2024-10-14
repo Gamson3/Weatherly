@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App UI</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <main class="app-container" id="contain" data-theme="light">
+        <header class="app-top-bar">
+          <button class="button button-small">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <h1 class="app-heading">Weather App</h1>
+          <button class="button button-small" id="toogler">
+            <i class="fas fa-light fa-moon" id="toogler-icon"></i>
+          </button>
+        </header>
+
+        <section class="app-content">
+          <button class="button button-block">
+            <span class="subtle">Period</span> <span>Today</span>
+            <div class="button button-small">
+              <i class="fas fa-chevron-right"></i>
+            </div>
+          </button>
+
+          <div class="search">
+            <input
+              type="text"
+              autocomplete="off"
+              class="search-box"
+              placeholder="Search for a city..."
+            />
+          </div>
+
+          <div class="main">
+            <section class="location">
+              <div class="city">Manchester, GB</div>
+              <div class="date">Monday 21 February 2021</div>
+            </section>
+          </div>
+
+          <div class="button button-dial">
+            <span class="button-dial-spoke"></span>
+            <span class="button-dial-spoke"></span>
+            <span class="button-dial-spoke"></span>
+            <span class="button-dial-spoke"></span>
+            <span class="button-dial-spoke"></span>
+            <span class="button-dial-spoke"></span>
+            <div class="button-dial-top"></div>
+            <div class="current">
+              <div class="temp">
+                <i class="fas fa-light fa-temperature-half"></i>
+                12<span>°c</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="main">
+            <div class="current">
+              <div class="weather">Sunny</div>
+              <div class="hi-low">8°c / 15°c</div>
+            </div>
+          </div>
+        </section>
+
+      </main>
+    </div>
+
+    <script src="index.js" defer></script>
+  </body>
+</html>
